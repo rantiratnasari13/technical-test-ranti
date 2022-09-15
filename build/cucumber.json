@@ -1,0 +1,119 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-15T09:43:08.899Z",
+        "line": 11,
+        "name": "Verify User is able to search book and book detail is displayed correctly",
+        "description": "",
+        "id": "books;verify-user-is-able-to-search-book-and-book-detail-is-displayed-correctly",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14863000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User go to \"https://demoqa.com/books\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://demoqa.com/books\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.ui.automation.website.stepdefinitions.FunctionStepDefs.userOpenWeb(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 486000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User in \"Book Store\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Book Store\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.ui.automation.website.stepdefinitions.FunctionStepDefs.userIsOnTheRightPage(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6741000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User search book \"Git Pocket Guide\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Git Pocket Guide\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.ui.automation.website.stepdefinitions.FunctionStepDefs.userSearchBook(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11746000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User click book \"Git Pocket Guide\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Git Pocket Guide\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.ui.automation.website.stepdefinitions.FunctionStepDefs.userClickBook(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 847000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User see \"Git Pocket Guide\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Git Pocket Guide\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.ui.automation.website.stepdefinitions.FunctionStepDefs.userSeeBookDetails(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Scenario3"
+          }
+        ]
+      }
+    ],
+    "name": "Books",
+    "description": "",
+    "id": "books",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Books.feature",
+    "tags": []
+  }
+]
